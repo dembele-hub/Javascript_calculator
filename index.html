@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JAVASCRIPT_CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <h1> Dembele-Chris <br />  Mini Calculator</h1>
+        </header>
+    </div>
+
+    <hr />
+    <section class="container">
+        <form>
+            value 1: <input type="text" id="value1">
+            value 2: <input type="text" id="value2">
+            Operator:
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+            </select>
+
+            <div>Answer: <input type="text" id="result"></div>
+
+            <button type="button" title="Click For Answer" onclick="calc()"> <strong> calculate</strong></button>
+        </form>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
